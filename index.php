@@ -1,5 +1,5 @@
 <?php
-    INCLUDE("tabledatabase.php");
+    INCLUDE("database.php");
 ?>
 <html>
   <head>

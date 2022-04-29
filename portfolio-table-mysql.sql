@@ -1,7 +1,7 @@
 CREATE DATABASE sales;
 
 CREATE TABLE sales.customers (
-	customer_id INT(14),
+	customer_id INT(11),
 	first_name VARCHAR (255),
 	last_name VARCHAR (255),
 	phone VARCHAR (255),
