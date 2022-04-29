@@ -14,8 +14,8 @@ CREATE TABLE sales.customers (
 );
 
 UPDATE TABLE sale.customers (
-SET email = '@yahoo.com'
-WHERE state = 'NY'; 
+SET email = '@yahoo.com',
+WHERE state = 'NY', 
 );
 
 
