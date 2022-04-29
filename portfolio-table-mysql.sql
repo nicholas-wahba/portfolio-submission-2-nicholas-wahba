@@ -1,7 +1,7 @@
 CREATE DATABASE sales;
 
 CREATE TABLE sales.customers (
-	customer_id INT(11),
+	customer_id INT(14),
 	first_name VARCHAR (255),
 	last_name VARCHAR (255),
 	phone VARCHAR (255),
@@ -13,6 +13,13 @@ CREATE TABLE sales.customers (
     PRIMARY KEY(customer_id)
 );
 
+UPDATE TABLE sale.customers (
+SET email = '@yahoo.com'
+WHERE state = 'NY'; 
+);
+
+
+
 INSERT INTO sales.customers(customer_id, first_name, last_name, phone, email, street, city, state, zip_code) VALUES(0, 'Debra','Burks',NULL,'debra.burks@yahoo.com','9273 Thorne Ave. ','Orchard Park','NY',14127);
 INSERT INTO sales.customers(customer_id, first_name, last_name, phone, email, street, city, state, zip_code) VALUES(1, 'Kasha','Todd',NULL,'kasha.todd@yahoo.com','910 Vine Street ','Campbell','CA',95008);
 INSERT INTO sales.customers(customer_id, first_name, last_name, phone, email, street, city, state, zip_code) VALUES(2, 'Tameka','Fisher',NULL,'tameka.fisher@aol.com','769C Honey Creek St. ','Redondo Beach','CA',90278);
@@ -23,3 +30,8 @@ INSERT INTO sales.customers(customer_id, first_name, last_name, phone, email, st
 INSERT INTO sales.customers(customer_id, first_name, last_name, phone, email, street, city, state, zip_code) VALUES(7, 'Jacquline','Duncan',NULL,'jacquline.duncan@yahoo.com','15 Brown St. ','Jackson Heights','NY',11372);
 INSERT INTO sales.customers(customer_id, first_name, last_name, phone, email, street, city, state, zip_code) VALUES(8, 'Genoveva','Baldwin',NULL,'genoveva.baldwin@msn.com','8550 Spruce Drive ','Port Washington','NY',11050);
 INSERT INTO sales.customers(customer_id, first_name, last_name, phone, email, street, city, state, zip_code) VALUES(9, 'Pamelia','Newman',NULL,'pamelia.newman@gmail.com','476 Chestnut Ave. ','Monroe','NY',10950);
+INSERT INTO sales.customers(customer_id, first_name, last_name, phone, email, street, city, state, zip_code) VALUES(10, 'Freddie','Howell',NULL,'freddie.howell@hotmail.com','895 East St. ','Albany','NY',12084);
+INSERT INTO sales.customers(customer_id, first_name, last_name, phone, email, street, city, state, zip_code) VALUES(11, 'Lindsay','Vargas','(716) 463-7894','lindsay.vargas@hotmail.com','327 Oyster Road ','Los Angeles','CA',90001);
+INSERT INTO sales.customers(customer_id, first_name, last_name, phone, email, street, city, state, zip_code) VALUES(12, 'Jill','Singh',NULL,'jill.singh@yahoo.com','27 Yellow St. ','Niagara Falls','NY',14301);
+INSERT INTO sales.customers(customer_id, first_name, last_name, phone, email, street, city, state, zip_code) VALUES(13, 'Cheryl','Carlson',NULL,'cheryl.carlson@msn.com','6437 Norway St. ','San Diego','CA',22434);
+INSERT INTO sales.customers(customer_id, first_name, last_name, phone, email, street, city, state, zip_code) VALUES(14, 'Josue','Caldwell',NULL,'josue.caldwell@gmail.com','863 Almond Road ','Syracuse','NY',13210);
