@@ -9,7 +9,7 @@
     $password = "";
 
     // Database
-    $database = "salers";
+    $database = "sales";
 
     // Global connection
     $connection = null;
